@@ -2,6 +2,7 @@ $border: 2px solid lightgrey;
 
 .body{
     font-family: "Assistant Regular";
+    box-sizing: border-box;
 }
 
 .vertical-align {
@@ -78,10 +79,10 @@ nav{
     div{
         .square{
             background-color: black;
-            height: 10vh;
+            height: 15vh;
         }
         .title{
-            border-top: 2px solid black; 
+            border-top: $border; 
             margin: auto; 
             height: 100%; 
             display: flex; 
@@ -93,6 +94,7 @@ nav{
         .picBorder{
             border-left: $border;
             border-right: $border; 
+            border-bottom: $border; 
         }
         .projects{
             height: 100%; 
@@ -125,8 +127,63 @@ nav{
             display: flex; 
             flex-direction: column; 
             justify-content: space-around; 
-        }
-       
+            .description{
+                margin: 5vh 5vw; 
+            }
+        }    
  }    
 }
 
+//Skills
+.skills{
+    height: 100vh; 
+    .square{
+        background-color: black;
+        height: 15vh;
+    }
+    .title{
+        font-family: "Cormorant Garamond";
+        border-left: $border; 
+        height: auto; 
+        h3{
+         letter-spacing: -0.02em;
+         font-size: 6rem; 
+         font-weight: bold; 
+         margin: 10vh auto auto 2vw; 
+        }
+    }
+    .rightside{
+        width: 100%; 
+        height: 100vh; 
+        display: flex; 
+        flex-direction: column;
+        justify-content: space-between;
+        border-left: $border;
+        border-right: $border; 
+        background-color: white; 
+        z-index: 5; 
+        border-top: $border; 
+        > h2{
+            font-size: 1.5rem; 
+            margin: auto auto 2vh 4vw;  
+            font-weight: normal; 
+        }
+        .keyboardpic{
+            width: 100%;   
+            position: inherit; 
+            display: flex;
+            justify-content: center;
+            img{
+                width: 85%; 
+                z-index: 5; 
+                margin: 0 auto;
+                position: inherit;  
+            }
+        }
+    }
+    .lastcolumn{
+        height: 100vh; 
+        background-color: white; 
+        z-index: 5; 
+    }
+}

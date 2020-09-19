@@ -3,7 +3,7 @@ import React from 'react';
 const Home = () => {
   return (
     <main className="container-fluid">
-      <div className="row">
+      <div className="row no-gutters">
         <div className="col-5 offset-1">
           <div className='title'>
             <h3>Front-End Developer</h3>

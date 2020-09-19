@@ -3,7 +3,7 @@ import React from 'react';
 const MyWork = () => {
   return (
     <div className="container-fluid myWork">
-      <div className="row">
+      <div className="row no-gutters">
         <div className="col-1 square">
         </div>
         <div className="col-3">
@@ -23,16 +23,18 @@ const MyWork = () => {
           </div>
         </div>
         <div className="col-6 projectdescriptions">
-          <div>
+          <div className="description">
             <h3>Weather?! App</h3>
-            <p>Used Technologies</p>
-           <div>Github Visit Side</div>
-          </div>
-          <div><h3>Game Night App</h3>
             <p>Used Technologies</p>
             <div>Github Visit Side</div>
           </div>
-          <div><h3>Animals Choice Shop</h3>
+          <div className="description">
+            <h3>Game Night App</h3>
+            <p>Used Technologies</p>
+            <div>Github Visit Side</div>
+          </div>
+          <div className="description">
+            <h3>Animals Choice Shop</h3>
             <p>Used Technologies</p>
             <div>Github Visit Side</div>
           </div>
