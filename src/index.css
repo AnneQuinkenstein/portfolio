@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "Assistant Regular";
+  src: local("Assistant Regular"),
+    url("./fonts/assistant.regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Assistant Regular";
+  src: local("Assistant Regular"),
+    url("./fonts/assistant.bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+
+@font-face {
+  font-family: "Cormorant Garamond";
+  src: local("Cormorant Garamond"),
+    url("./fonts/CormorantGaramond-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Cormorant Garamond";
+  src: local("Cormorant Garamond"),
+    url("./fonts/CormorantGaramond-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
